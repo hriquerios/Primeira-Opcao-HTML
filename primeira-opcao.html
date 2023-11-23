@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Escola Primeira Opção</title>
+
+</head>
+
+<body>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
+
+    <nav class="navbar col-12 m-auto position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;">
+        <div class="container-fluid col-11 m-auto">
+            <a class="navbar-brand" href="#inicio" onclick="scrollToSection('inicio')">Início</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#infraestrutura"
+                            onclick="scrollToSection('infraestrutura')">Infraestrutura <span class="sr-only">(página
+                                atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#valores" onclick="scrollToSection('valores')">Nossos Valores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#diferenciais"
+                            onclick="scrollToSection('diferenciais')">Diferenciais</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Vagas
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#fundamental" onclick="scrollToSection('fundamental')">Ensino
+                                Fundamental</a>
+                            <a class="dropdown-item" href="#medio" onclick="scrollToSection('medio')">Ensino Médio</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer" onclick="scrollToSection('footer')">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br>
+    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="/img/PNP08.jpg" alt="Primeiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="/img/PNP04.jpg" alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="/img/PNP06.jpg" alt="Terceiro Slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+    <br>
+    <br>
+    <div id="valores" class="col-11 m-auto">
+        <h2 class="text-center">Nossos Valores</h2>
+        <p class="text-center">A Escola Primeira Opção tem como missão oferecer uma educação de qualidade, que prepare
+            os alunos para enfrentar os desafios do mundo moderno. A instituição valoriza a ética, a responsabilidade
+            social, a solidariedade e o respeito à diversidade. Além disso, busca estimular a criatividade, a autonomia,
+            o pensamento crítico e a capacidade de liderança dos estudantes. Para alcançar esses objetivos, a escola
+            conta com uma equipe de professores qualificados e comprometidos, e oferece um ambiente acolhedor e
+            estimulante para o aprendizado. Com essa proposta educacional, a Escola Primeira Opção contribui para a
+            formação de cidadãos conscientes e preparados para atuar em diferentes áreas da sociedade.
+        </p>
+    </div>
+    <br>
+    <div id="diferenciais" class="row row-cols-1 row-cols-md-3 g-4 col-11 m-auto">
+        <div id="diferenciais" class="col-11 m-auto">
+            <h2 class="text-center">Nossos diferenciais</h2>
+            <p class="text-center">Confira alguns dos nossos diferenciais oferecidos pela nossa instituição:
+            </p>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="/img/Artigo-4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Laboratórios</h5>
+                    <p class="card-text">A Escola Primeira Opção tem laboratórios equipados com tecnologia de ponta,
+                        como o de informática com softwares atualizados e o de ciências com equipamentos modernos. Isso
+                        proporciona aos alunos uma experiência de aprendizado prática e interativa, tornando o ensino
+                        mais dinâmico e significativo.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/atividades-extracurriculares-como-inserir-na-escola-exemplos-e-muito-mais.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Atividades Extracurriculares</h5>
+                    <p class="card-text">A Escola oferece diversas atividades extracurriculares que complementam a
+                        formação dos alunos. Entre as opções, estão cursos de línguas, artes, esportes e informática.
+                        Essas atividades ajudam a desenvolver habilidades e competências importantes, além de
+                        proporcionar novas experiências e ampliar os horizontes dos estudantes.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="/img/Aulas_EMR_Crédito_Igor_Siqueira-4-770x440.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Projetos de Vida</h5>
+                    <p class="card-text">A Escola Primeira Opção tem o compromisso de auxiliar os alunos na realização
+                        de seus projetos de vida. Para isso, oferece orientação vocacional, programas de estágio e
+                        parcerias com instituições de ensino superior e empresas. Os alunos são incentivados a pensar em
+                        seus objetivos pessoais e profissionais desde cedo, e a escola os prepara para alcançá-los,
+                        fornecendo recursos e oportunidades de aprendizado e desenvolvimento.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="fundamental" class="col-11 m-auto">
+        <h2 class="text-center">Ensino Fundamental</h2>
+        <p class="text-center">Número de vagas para o ensino fundamental ofertadas em cada ano escolar:
+        </p>
+    </div>
+    <br>
+    <table class="table table-bordered col-6 m-auto">
+        <thead>
+            <tr>
+                <th scope="col">Série</th>
+                <th scope="col">Turno</th>
+                <th scope="col">Número de vagas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">5ª</th>
+                <td>Tarde</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <th scope="row">6ª</th>
+                <td>Tarde</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <th scope="row">7ª</th>
+                <td>Tarde</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <th scope="row">8ª</th>
+                <td>Tarde</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <th scope="row">9ª</th>
+                <td>Tarde</td>
+                <td>120</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <div id="medio" class="col-11 m-auto">
+        <h2 class="text-center">Ensino Médio</h2>
+        <p class="text-center">Número de vagas para o ensino médio ofertadas em cada ano escolar:
+        </p>
+    </div>
+    <br>
+    <table class="table table-bordered col-6 m-auto">
+        <thead>
+            <tr>
+                <th scope="col">Série</th>
+                <th scope="col">Turno</th>
+                <th scope="col">Número de vagas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1°</th>
+                <td>Manhã</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <th scope="row">2°</th>
+                <td>Manhã</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <th scope="row">3°</th>
+                <td>Manhã</td>
+                <td>150</td>
+            </tr>
+            <tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <footer id="footer" class="bg-dark text-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Informações de contato</p>
+                    <ul class="list-unstyled">
+                        <li>Endereço: 123 Rua Principal</li>
+                        <li>Telefone: (555) 555-5555</li>
+                        <li>Email: info@example.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <p>Siga-nos nas redes sociais</p>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
